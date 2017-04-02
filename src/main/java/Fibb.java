@@ -19,7 +19,7 @@ public class Fibb {
         HttpClient httpClient = HttpClient.of(httpClientSpec -> httpClientSpec.readTimeout(Duration.ofMinutes(2)));
 
 
-        final String uri = "http://localhost:8080/fibo/";
+        final String uri = "http:// localhost:8080/fibo/";
 
         RatpackServer.start(ratpackServerSpec ->
                         ratpackServerSpec
